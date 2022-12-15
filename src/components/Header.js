@@ -9,7 +9,7 @@ export default function Header() {
 			<img src={logo} alt="Praveen"/>
 		</Link>
 		<nav className="nav">
-			<Link to="/" className="active" rel="home"><i className="ti-face-smile"></i></Link>
+			<Link to="/home" className="active" rel="home"><i className="ti-face-smile"></i></Link>
 			<Link to="/about" rel="about"><i className="ti-book"></i></Link>
 			<Link to="/skills" rel="skills"><i className="ti-agenda"></i></Link>
 			<Link className='hide' to="/works" rel="my work"><i className="ti-image"></i></Link>
