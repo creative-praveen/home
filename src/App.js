@@ -16,6 +16,7 @@ function App() {
           &lt;html><br/> &nbsp; &nbsp; &lt;body> 
         </code>
           <Routes>
+          <Route exact path="/" element={<Home/>}/>
             <Route exact path="/home" element={<Home/>}/>
             <Route exact path="/about" element={<About/>}/>
             <Route exact path="/skills" element={<Skills/>}/>
