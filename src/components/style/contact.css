@@ -1,0 +1,10 @@
+.contact-form { max-width: 520px; display: flex; flex-flow: row wrap; justify-content: space-between; }
+.contact-form * {  box-sizing: border-box; }
+.contact-form input, .contact-form textarea { padding: 5px 10px; margin-bottom: 15px; outline: none; background-color: rgba(255,255,255,0.2); border: rgba(0,0,0,0.2) solid 1px; }
+.contact-form input { height: 36px; }
+.contact-form textarea { height: 120px; resize: none; }
+.contact-form .col2 { flex: 0 0 48%; }
+.contact-form .col1 { flex: 0 0 100%; }
+.contact-form button { margin-top: 10px; outline: 0; box-shadow: none; font-family: 'Quicksand', sans-serif; font-size: 17px; }
+
+.contactbg { /* background-image: url(../images/contact.jpg); */ background-size: auto 90%; background-position: 90% bottom; }

@@ -1,0 +1,15 @@
+.contant { padding-left: 8%; position: relative; }
+.contant code { opacity: 0.5; }
+.home small { font-family: 'Marck Script', cursive; font-size: 32px; opacity: 0.8 }
+.home h1 { font-family: 'Poppins', serif; font-size: 48px; letter-spacing: 0.5px; margin: 0; }
+.home span { color: #f5083f; }
+.home p { font-family: 'Marck Script', cursive; font-size: 24px; margin: 0; }
+.htag { position: absolute; margin-top: -17px; left: 570px; }
+.home-top, .home-bottom { position: absolute; left: 30px; line-height: 24px; }
+.home-top { top: 20px; }
+.home-bottom { bottom: 30px; }
+.contact-link { cursor: pointer; border: 0; background-color: transparent; margin-top: 25px; display: inline-block; text-decoration: none; position: relative; padding: 10px 25px; color: #4863b9; }
+.contact-link:after, .contact-link:before { content: ''; position: absolute; height: 50%; width: 40%; border:#4863b9 solid; -webkit-transition: all .3s ease-out; transition: all .3s ease-out; color: #152235; }
+.contact-link:before { border-width: 1px 0 0 1px; left: 0; top: 0; }
+.contact-link:after { border-width: 0 1px 1px 0; right: 0; bottom: 0; }
+.contact-link:hover:after, .contact-link:hover:before { width: 99%; height: 96%; }
