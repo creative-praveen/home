@@ -13,7 +13,7 @@ function App() {
       <Header />
       <div className="contant flexcol flex">
         <code className="home-top">
-          &lt;html><br/> &nbsp; &nbsp; &lt;body> 
+          &lt;html&gt;<br/> &nbsp; &lt;body&gt;
         </code>
           <Routes>
           <Route exact path="/" element={<Home/>}/>
@@ -24,7 +24,7 @@ function App() {
             <Route exact path="/contact" element={<Contact/>}/>
           </Routes>
         <code className="home-bottom">
-          &nbsp; &nbsp; &lt;/body><br/>&lt;/html>
+          &nbsp; &lt;/body&gt;<br/>&lt;/html&gt;
         </code>
       </div>
     </Router>

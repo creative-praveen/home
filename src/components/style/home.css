@@ -13,3 +13,33 @@
 .contact-link:before { border-width: 1px 0 0 1px; left: 0; top: 0; }
 .contact-link:after { border-width: 0 1px 1px 0; right: 0; bottom: 0; }
 .contact-link:hover:after, .contact-link:hover:before { width: 99%; height: 96%; }
+
+@media (max-width: 749px) {
+	.htag {
+		left: 270px;
+	}
+	.home small {
+		font-size: 21px;
+	}
+	.home h1 {
+		font-size: 24px;
+	}
+    .home p {
+        font-size: 18px;
+    }
+    .contant {
+        padding: 0 15px;
+        height: calc(100% - 80px);
+    }
+	.home-top, .home-bottom {
+		position: absolute;
+		left: 6px;
+		line-height: 18px;
+	}
+	.home-top {
+		top: 10px;
+	}
+	.home-bottom {
+		bottom: 10px;
+	}
+}

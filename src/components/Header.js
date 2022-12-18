@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="flexcol">
 		<Link className="logo" to="/">
-			<img src={logo} alt="Praveen"/>
+			<img src={logo} alt="Praveen" width={'100%'}/>
 		</Link>
 		<nav className="nav">
 			<Link to="/home" className="active" rel="home"><i className="ti-face-smile"></i></Link>

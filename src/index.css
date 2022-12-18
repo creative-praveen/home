@@ -50,3 +50,36 @@ nav a:hover i { opacity: 0; }
 .social-links a { font-size: 17px; color: #152235; display: block; line-height: 32px;  }
 .social-links a:hover { color: #4863b9; }
 .hide { display: none !important;}
+@media (max-width: 749px) {
+	.site.flexrow {
+		display: block;
+		flex-direction: column;
+		height: 100%;
+	}
+	header.flexcol, nav {
+		flex-direction: row;
+	}
+	header { flex: 0 0 100%; height: auto; position: sticky;
+		top: 0;
+		z-index: 5; }
+	header .logo { width: 45px;}
+	header img { display: block; }
+	nav {
+		justify-content: flex-end;
+	}
+	nav a { margin-right: 12px;}
+	nav a i {
+		display: none;
+	}
+	nav a:after { position: relative; opacity: 1; }
+	.social-links {
+		display: flex;
+		position: fixed;
+		bottom: 0;
+		justify-content: space-around;
+		background: #e3e8f8;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}
